@@ -1,0 +1,113 @@
+[*]
+[*] GTKWave Analyzer v3.3.98 (w)1999-2019 BSI
+[*] Thu Mar 11 03:21:54 2021
+[*]
+[dumpfile] "/home/ross/git/vex-axi/sim_top.fst"
+[dumpfile_mtime] "Thu Mar 11 03:21:34 2021"
+[dumpfile_size] 330
+[savefile] "/home/ross/git/vex-axi/trace.gtkw"
+[timestart] 235739600
+[size] 2145 2090
+[pos] -1 -1
+*-17.276382 236046700 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] sim_top.
+[treeopen] sim_top.t.
+[sst_width] 523
+[signals_width] 616
+[sst_expanded] 1
+[sst_vpaned_height] 661
+@22
+sim_top.t.iBusAxi_ar_payload_addr[31:0]
+@28
+sim_top.t.iBusAxi_ar_payload_burst[1:0]
+@22
+sim_top.t.iBusAxi_ar_payload_cache[3:0]
+sim_top.t.iBusAxi_ar_payload_len[7:0]
+@28
+sim_top.t.iBusAxi_ar_payload_prot[2:0]
+sim_top.t.iBusAxi_ar_ready
+sim_top.t.iBusAxi_ar_valid
+@22
+sim_top.t.iBusAxi_r_payload_data[31:0]
+@28
+sim_top.t.iBusAxi_r_payload_last
+sim_top.t.iBusAxi_r_payload_resp[1:0]
+sim_top.t.iBusAxi_r_ready
+sim_top.t.iBusAxi_r_valid
+@200
+-
+@22
+sim_top.t.dBusAxi_ar_payload_addr[31:0]
+@28
+sim_top.t.dBusAxi_ar_payload_burst[1:0]
+@22
+sim_top.t.dBusAxi_ar_payload_cache[3:0]
+@28
+sim_top.t.dBusAxi_ar_payload_id
+@22
+sim_top.t.dBusAxi_ar_payload_len[7:0]
+@28
+sim_top.t.dBusAxi_ar_payload_lock
+sim_top.t.dBusAxi_ar_payload_prot[2:0]
+sim_top.t.dBusAxi_ar_payload_size[2:0]
+[color] 3
+sim_top.t.dBusAxi_ar_ready
+[color] 2
+sim_top.t.dBusAxi_ar_valid
+@200
+-
+@22
+sim_top.t.dBusAxi_aw_payload_addr[31:0]
+@28
+sim_top.t.dBusAxi_aw_payload_burst[1:0]
+@22
+sim_top.t.dBusAxi_aw_payload_cache[3:0]
+@28
+sim_top.t.dBusAxi_aw_payload_id
+@22
+sim_top.t.dBusAxi_aw_payload_len[7:0]
+@28
+sim_top.t.dBusAxi_aw_payload_lock
+sim_top.t.dBusAxi_aw_payload_prot[2:0]
+sim_top.t.dBusAxi_aw_payload_size[2:0]
+[color] 3
+sim_top.t.dBusAxi_aw_ready
+[color] 2
+sim_top.t.dBusAxi_aw_valid
+@200
+-
+@28
+sim_top.t.dBusAxi_b_payload_id
+sim_top.t.dBusAxi_b_payload_resp[1:0]
+[color] 3
+sim_top.t.dBusAxi_b_ready
+[color] 2
+sim_top.t.dBusAxi_b_valid
+@200
+-
+@22
+sim_top.t.dBusAxi_r_payload_data[31:0]
+@28
+sim_top.t.dBusAxi_r_payload_id
+sim_top.t.dBusAxi_r_payload_last
+sim_top.t.dBusAxi_r_payload_resp[1:0]
+[color] 3
+sim_top.t.dBusAxi_r_ready
+[color] 2
+sim_top.t.dBusAxi_r_valid
+@200
+-
+@22
+sim_top.t.dBusAxi_w_payload_data[31:0]
+@28
+sim_top.t.dBusAxi_w_payload_last
+@22
+sim_top.t.dBusAxi_w_payload_strb[3:0]
+@28
+[color] 3
+sim_top.t.dBusAxi_w_ready
+@29
+[color] 2
+sim_top.t.dBusAxi_w_valid
+[pattern_trace] 1
+[pattern_trace] 0

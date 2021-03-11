@@ -157,33 +157,8 @@ object GenVexRiscv {
         )
       )
 
-      //CPU instantiation
+      // CPU instantiation
       val cpu = new VexRiscv(cpuConfig)
-
-      // CPU modifications to use a wishbone interface
-      /*
-      cpu.rework {
-        for (plugin <- cpuConfig.plugins) plugin match {
-          case plugin: IBusSimplePlugin => {
-            plugin.iBus.setAsDirectionLess() //Unset IO properties of iBus
-            master(plugin.iBus.toWishbone()).setName("iBusWishbone")
-          }
-          case plugin: IBusCachedPlugin => {
-            plugin.iBus.setAsDirectionLess()
-            master(plugin.iBus.toWishbone()).setName("iBusWishbone")
-          }
-          case plugin: DBusSimplePlugin => {
-            plugin.dBus.setAsDirectionLess()
-            master(plugin.dBus.toWishbone()).setName("dBusWishbone")
-          }
-          case plugin: DBusCachedPlugin => {
-            plugin.dBus.setAsDirectionLess()
-            master(plugin.dBus.toWishbone()).setName("dBusWishbone")
-          }
-          case _ =>
-        }
-      }
-      */
 
       cpu.rework {
         for (plugin <- cpuConfig.plugins) plugin match {

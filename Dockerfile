@@ -20,7 +20,8 @@ RUN apt install -y ca-certificates-java
 WORKDIR /vex/
 RUN git clone https://github.com/SpinalHDL/SpinalHDL.git \
         && cd SpinalHDL \
-        && git checkout bedcf7a3fc0072d10bcc994e118955d515849fd9
+        && git checkout bedcf7a3fc0072d10bcc994e118955d515849fd9 \
+        && sbt clean compile publishLocal
 
 # VexRiscv
 WORKDIR /vex/
