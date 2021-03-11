@@ -20,14 +20,14 @@ RUN apt install -y ca-certificates-java
 WORKDIR /vex/
 RUN git clone https://github.com/SpinalHDL/SpinalHDL.git \
         && cd SpinalHDL \
-        && git checkout bedcf7a3fc0072d10bcc994e118955d515849fd9 \
+        && git checkout 3097aa38e8419acac302cfacff70f1cd700b1865 \
         && sbt clean compile publishLocal
 
 # VexRiscv
 WORKDIR /vex/
 RUN git clone https://github.com/SpinalHDL/VexRiscv.git \
         && cd VexRiscv \
-        && git checkout 36b3cd918896c94c4e8a224d97c559ab6dbf3ec9
+        && git checkout be81cc1e0e18ade1c1e1a73fb6c2847cbd6f8d46
 
 # Add our custom gen file
 ADD GenVexRiscv.scala /vex/VexRiscv/src/main/scala/vexriscv/demo/
